@@ -1,0 +1,18 @@
+wandb_version: 1
+
+batch_size:
+  value: 114
+epochs:
+  value: 10
+lr:
+  value: 0.0019381203271782008
+lr_decay_step:
+  value: 39
+optimizer:
+  value: SGD
+seed:
+  value: 24
+val_ratio:
+  value: 0.16461477117019446
+valid_batch_size:
+  value: 312

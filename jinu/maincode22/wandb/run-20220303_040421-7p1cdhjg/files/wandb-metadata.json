@@ -1,0 +1,27 @@
+{
+    "os": "Linux-4.4.0-59-generic-x86_64-with-glibc2.10",
+    "python": "3.8.5",
+    "heartbeatAt": "2022-03-03T04:04:23.195357",
+    "startedAt": "2022-03-03T04:04:21.252185",
+    "docker": null,
+    "gpu": "Tesla V100-PCIE-32GB",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--batch_size=245",
+        "--epochs=8",
+        "--lr=0.0015731120080189004",
+        "--lr_decay_step=16",
+        "--optimizer=Adam",
+        "--seed=54",
+        "--val_ratio=0.2717667778525868",
+        "--valid_batch_size=319"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "host": "025ad4858d4a",
+    "username": "root",
+    "executable": "/opt/conda/bin/python"
+}

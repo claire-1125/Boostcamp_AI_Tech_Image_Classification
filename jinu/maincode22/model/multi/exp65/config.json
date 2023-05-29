@@ -1,0 +1,25 @@
+{
+    "seed": 63,
+    "epochs": 6,
+    "dataset": "MaskSplitByProfileDataset",
+    "augmentation": "CustomAugmentation",
+    "resize": [
+        224,
+        224
+    ],
+    "batch_size": 144,
+    "valid_batch_size": 376,
+    "model": "PretrainedModels",
+    "model_param": "resnet false",
+    "optimizer": "SGD",
+    "lr": 0.0009557337776421176,
+    "val_ratio": 0.12151928902956742,
+    "criterion": "cross_entropy",
+    "lr_decay_step": 28,
+    "log_interval": 20,
+    "name": "exp",
+    "label": "multi",
+    "weight_version": 0,
+    "data_dir": "/opt/ml/input/data/train/images",
+    "model_dir": "./model"
+}

@@ -1,0 +1,1 @@
+{"global_step": 39, "_timestamp": 1646285281.500396, "Train/loss": 0.5945038795471191, "Train/accuracy": 0.7729358077049255, "_runtime": 36, "_step": 1, "Val/f1": 0.6758635640144348, "Val/loss": 2.2557873725891113, "Val/accuracy": 0.4724409580230713, "results": {"_type": "images/separated", "width": 1200, "height": 2000, "format": "png", "count": 1}}}}

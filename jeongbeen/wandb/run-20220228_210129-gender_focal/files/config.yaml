@@ -1,0 +1,83 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.10
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.5
+    start_time: 1646082089
+    t:
+      1:
+      - 1
+      - 5
+      2:
+      - 1
+      - 5
+      4: 3.8.5
+      5: 0.12.10
+      8:
+      - 5
+augmentation:
+  desc: null
+  value: CustomAugmentation
+batch_size:
+  desc: null
+  value: 64
+criterion:
+  desc: null
+  value: focal
+data_dir:
+  desc: null
+  value: /opt/ml/input/data/train/images
+dataset:
+  desc: null
+  value: MaskSplitByProfileDataset
+epochs:
+  desc: null
+  value: 60
+label:
+  desc: null
+  value: gender
+log_interval:
+  desc: null
+  value: 20
+lr:
+  desc: null
+  value: 0.001
+lr_decay_step:
+  desc: null
+  value: 20
+model:
+  desc: null
+  value: PretrainedModels
+model_dir:
+  desc: null
+  value: ./model
+model_param:
+  desc: null
+  value:
+  - resnet
+  - 'false'
+name:
+  desc: null
+  value: gender_focal
+optimizer:
+  desc: null
+  value: SGD
+resize:
+  desc: null
+  value:
+  - 224
+  - 224
+seed:
+  desc: null
+  value: 42
+val_ratio:
+  desc: null
+  value: 0.2
+valid_batch_size:
+  desc: null
+  value: 200

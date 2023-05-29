@@ -1,0 +1,18 @@
+wandb_version: 1
+
+batch_size:
+  value: 233
+epochs:
+  value: 30
+lr:
+  value: 0.0014755957545434808
+lr_decay_step:
+  value: 29
+optimizer:
+  value: Adam
+seed:
+  value: 35
+val_ratio:
+  value: 0.3651325126195012
+valid_batch_size:
+  value: 264
